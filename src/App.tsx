@@ -19,7 +19,7 @@ function App() {
         <div className="mb-3">
           <button type="button" className="form-control header_button" onClick={() => generate(files, pattern)} disabled={files == undefined}>生成 &amp; ダウンロード</button>
         </div>
-        <div className="mb-3">
+        <div className="mb-3 text-center">
           <label className="form-label">
             カテゴリ名生成パターン
             <input type="text" className="form-control cat_pattern_input" value={pattern} onChange={(e) => set_pattern(e.target.value)} disabled={files == undefined}></input>
@@ -27,7 +27,7 @@ function App() {
         </div>
         <footer className="footer bg-light py-3 p-2 footer_area">
           <span className="copyright">&copy; 2022 <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/White_Green2525">White-Green</a></span>
-          <span><a target="_blank" rel="noreferrer noopener"href="https://github.com/White-Green/pitagoegen" style={{textAlign:"end"}}>source &amp; license</a></span>
+          <span><a target="_blank" rel="noreferrer noopener"href="https://github.com/White-Green/pitagoegen">source &amp; license</a></span>
         </footer>
       </div>
     </div>
