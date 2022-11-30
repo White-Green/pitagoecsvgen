@@ -4,13 +4,13 @@ import init, { process, natural_sort } from 'pitagoegen_core';
 
 function App() {
   const [files, set_files] = React.useState<TreeNode | undefined>(undefined);
-  const [pattern, set_pattern] = React.useState<string>("_${DIR}");
+  const [pattern, set_pattern] = React.useState<string>("${DIR}");
   const [phantom_state, notifier] = React.useState(false);
 
   return (
     <div className="App">
       <div className="App_left">
-        <button type="button" className="form-control header_button" onClick={() => process_input((files) => { set_files(files); set_pattern(files.name + "_${DIR}") })} value="test">フォルダを選択</button>
+        <button type="button" className="form-control header_button" onClick={() => process_input((files) => { set_files(files); set_pattern(`\${DIR} (${files.name})`) })} value="test">フォルダを選択</button>
         <div className="fileviewer_area">
           {files && <TreeViewer node={files} notifier={() => notifier(!phantom_state)} />}
         </div>
@@ -34,7 +34,6 @@ function generate(node: TreeNode | undefined, pattern: string) {
   if (node !== undefined) {
     try {
       const all_path = collect_all_files(node);
-      console.log(JSON.stringify(all_path));
       const result: string[][] = process(all_path, pattern);
       const result_string = result.map(column => column.map(item => JSON.stringify(item)).join(",")).join("\n");
       let a = document.createElement("a");
