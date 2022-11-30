@@ -27,7 +27,7 @@ function App() {
         </div>
         <footer className="footer bg-light py-3 p-2 footer_area">
           <span className="copyright">&copy; 2022 <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/White_Green2525">White-Green</a></span>
-          <span><a target="_blank" rel="noreferrer noopener"href="https://github.com/White-Green/pitagoegen">source &amp; license</a></span>
+          <span><a target="_blank" rel="noreferrer noopener"href="https://github.com/White-Green/pitagoecsvgen">source &amp; license</a></span>
         </footer>
       </div>
     </div>
