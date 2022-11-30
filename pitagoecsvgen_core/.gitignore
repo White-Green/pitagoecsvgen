@@ -1,0 +1,9 @@
+/*
+!/pkg
+/pkg/*
+!/pkg/.gitkeep
+!/src
+!/Cargo.toml
+!/Cargo.lock
+!/build.ps1
+!/.gitignore

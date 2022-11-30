@@ -2,7 +2,7 @@
 !/build
 !/src
 !/public
-!/pitagoegen_core
+!/pitagoecsvgen_core
 !/package.json
 !/README.md
 !/tsconfig.json

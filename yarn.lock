@@ -6651,7 +6651,7 @@ pirates@^4.0.4:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.5.tgz#feec352ea5c3268fb23a37c702ab1699f35a5f3b"
   integrity sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==
 
-"pitagoegen_core@file:./pitagoegen_core/pkg":
+"pitagoegen_core@file:pitagoecsvgen_core/pkg":
   version "0.1.0"
 
 pkg-dir@^4.1.0, pkg-dir@^4.2.0:
