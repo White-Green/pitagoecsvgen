@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.249bfba7.css",
+    "main.js": "/static/js/main.a6fd03f2.js",
+    "static/media/pitagoegen_core_bg.wasm": "/static/media/pitagoegen_core_bg.21f5e1a0f2e9bd852566.wasm",
+    "index.html": "/index.html",
+    "main.249bfba7.css.map": "/static/css/main.249bfba7.css.map",
+    "main.a6fd03f2.js.map": "/static/js/main.a6fd03f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.249bfba7.css",
+    "static/js/main.a6fd03f2.js"
+  ]
+}
