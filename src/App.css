@@ -13,6 +13,15 @@
 
 .App_right {
   grid-column: 2 / 3;
+  border-left: solid 1px darkgray;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.footer_area {
+  display: grid;
+  grid-template-columns: 1fr auto;
 }
 
 .fileviewer_area {

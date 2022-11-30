@@ -25,6 +25,10 @@ function App() {
             <input type="text" className="form-control cat_pattern_input" value={pattern} onChange={(e) => set_pattern(e.target.value)} disabled={files == undefined}></input>
           </label>
         </div>
+        <footer className="footer bg-light py-3 p-2 footer_area">
+          <span className="copyright">&copy; 2022 <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/White_Green2525">White-Green</a></span>
+          <span><a target="_blank" rel="noreferrer noopener"href="https://github.com/White-Green/pitagoegen" style={{textAlign:"end"}}>source &amp; license</a></span>
+        </footer>
       </div>
     </div>
   );
@@ -67,7 +71,6 @@ const TreeViewer: React.FC<{ node: TreeNode, visible?: boolean, notifier: () => 
       </label>
     </div>);
   } else {
-    const gridTemplateRows = node.children.map(node => `${get_node_size(node, visible) * 40}px`).join(" ");
     return (<div>
       <div className="file_header">
         <label>
