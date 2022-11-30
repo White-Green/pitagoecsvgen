@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pitagoegen/static/css/main.5fe62ba2.css",
-    "main.js": "/pitagoegen/static/js/main.e53e64fd.js",
-    "static/media/pitagoecsvgen_core_bg.wasm": "/pitagoegen/static/media/pitagoecsvgen_core_bg.470bf33a81c66c2e6c28.wasm",
-    "index.html": "/pitagoegen/index.html",
-    "main.5fe62ba2.css.map": "/pitagoegen/static/css/main.5fe62ba2.css.map",
-    "main.e53e64fd.js.map": "/pitagoegen/static/js/main.e53e64fd.js.map"
+    "main.css": "/pitagoecsvgen/static/css/main.5fe62ba2.css",
+    "main.js": "/pitagoecsvgen/static/js/main.7c709cb0.js",
+    "static/media/pitagoecsvgen_core_bg.wasm": "/pitagoecsvgen/static/media/pitagoecsvgen_core_bg.470bf33a81c66c2e6c28.wasm",
+    "index.html": "/pitagoecsvgen/index.html",
+    "main.5fe62ba2.css.map": "/pitagoecsvgen/static/css/main.5fe62ba2.css.map",
+    "main.7c709cb0.js.map": "/pitagoecsvgen/static/js/main.7c709cb0.js.map"
   },
   "entrypoints": [
     "static/css/main.5fe62ba2.css",
-    "static/js/main.e53e64fd.js"
+    "static/js/main.7c709cb0.js"
   ]
 }
