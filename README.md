@@ -8,9 +8,9 @@
 
 プロジェクトのセットアップ
 ```shell
-$ git clone https://github.com/White-Green/pitagoegen
-$ cd pitagoegen
-$ cd pitagoegen_core
+$ git clone https://github.com/White-Green/pitagoecsvgen
+$ cd pitagoecsvgen
+$ cd pitagoecsvgen_core
 $ ./build.ps1 # もしくは build.ps1内記述のコマンド
 $ cd ..
 $ yarn
